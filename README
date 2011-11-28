@@ -1,0 +1,30 @@
+SC-MONOME
+----------------------------------------------------------------------
+SuperCollider classes to simplify interfacing with Monome controllers.
+
+Monome.sc:
+ - represents a single Monome controller.
+   Call .led, .led_row, .led_col to set lights.
+   Set .action to respond to button-press events.
+
+MonomEm.sc
+ - a simple graphical monome emulator, for testing when your
+   controller is not around.
+
+CREDITS
+----------------------------------------------------------------------
+Created by:
+  Daniel Jones
+  <http://www.erase.net>
+
+Support for 128/256, Linux GUI fixes and custom prefixes:
+  Tristan Strange
+  <tristan.strange@gmail.com>
+
+
+MORE INFORMATION
+----------------------------------------------------------------------
+For more information:
+
+	http://supercollider.sourceforge.net
+	http://monome.org/
